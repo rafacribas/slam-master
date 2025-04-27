@@ -3,6 +3,12 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
+  app: {
+    head: {
+      title: 'Slam Master',
+    },
+  },
+
   devtools: { enabled: true },
   ssr: false,
   modules: [
