@@ -10,11 +10,11 @@
     </NuxtLink>
     <NuxtLink v-if="hasData" to="/step5" class="mt-6">
       <UButton
-      label="Resultado Final"
-      variant="outline"
-      trailing-icon="i-lucide-crown"
-      color="neutral"
-      class="flex"
+        label="Resultado Final"
+        variant="outline"
+        trailing-icon="i-lucide-crown"
+        color="neutral"
+        class="flex"
       />
     </NuxtLink>
  
@@ -43,6 +43,7 @@ const hasData = computed(() => {
 function clearData() {
   names.value = [];
   Object.keys(notes.value).forEach(key => delete notes.value[key]);
+  Object.keys(names.value).forEach(key => delete names.value[key]);
   Object.keys(sumOfNotes.value).forEach(key => delete sumOfNotes.value[key]);
 }
 

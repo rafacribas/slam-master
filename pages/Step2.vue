@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col justify-between min-h-[90vh ] p-4">
+  <section class="flex flex-col justify-between min-h-[80vh ] p-4">
     <div class="flex flex-col items-center">
       <span class="text-highlighted text-3xl font-bold mb-12 self-center">Sortear Poeta</span>
       <UButton 
